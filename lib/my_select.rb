@@ -4,9 +4,8 @@ new_collection = []
 
  while i < collection.length 
  new_collection << collection.select { |i| yield(i) }  
- 
   i += 1 
-  
  end 
+ 
   return new_collection
 end 
