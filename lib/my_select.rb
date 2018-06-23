@@ -3,7 +3,7 @@ new_collection = []
  i = 0 
 
  while i < collection.length 
- new_collection << { collection.select yield(collection[i]) } end 
+ new_collection << { collection.select yield(collection[i]) }  
  
   i += 1 
   
